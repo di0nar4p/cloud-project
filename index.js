@@ -9,7 +9,7 @@ app.get("/", (request, response)=>{
 });
 
 app.get('/produtos',(req,res)=>{
-    res.json[{nome: 'Celular',nome: 'TV',nome: 'Sofá',}]
+    res.json[{nome: 'Celular',nome: 'TV',nome: 'Sofá'}]
 });
 
 const PORT = 3000
